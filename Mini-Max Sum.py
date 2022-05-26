@@ -14,6 +14,10 @@ import sys
 
 def miniMaxSum(arr):
     # Write your code here
+    arr.sort()
+    mini = sum(arr[0:4])
+    maxi = sum(arr[1:5])
+    print(f'{mini} {maxi}')
 
 if __name__ == '__main__':
 
